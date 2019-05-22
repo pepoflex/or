@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotel Lunita | Directory Template </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts - Vidaloka-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
+    <!-- Google fonts - Poppins-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <!-- Owl Carousel-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Fancy Box-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Custom Font Icons CSS-->
+    <link rel="stylesheet" href="css/custom-fonticons.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <header class="header">
+      <!-- Top bar-->
+      <div class="top-bar">
+        <div class="container">
+          <div class="content-holder d-flex justify-content-between">
+            <div class="info d-flex">
+              <!--
+              <div class="dropdowns d-flex">
+                <div class="dropdown"><a id="currency" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="fa fa-angle-down"></i></a>
+                  <div aria-labelledby="currency" class="dropdown-menu"><a href="index.html#" class="dropdown-item">USD</a><a href="index.html#" class="dropdown-item">EUR</a><a href="index.html#" class="dropdown-item">JPY</a></div>
+                </div>
+                <div class="dropdown"><a id="language" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN<i class="fa fa-angle-down"></i></a>
+                  <div aria-labelledby="language" class="dropdown-menu"><a href="index.html#" class="dropdown-item">EN</a><a href="index.html#" class="dropdown-item">ES</a><a href="index.html#" class="dropdown-item">FR</a></div>
+                </div>
+              </div>
+              -->
+              <div class="contact d-flex">
+                <p><a href="mailto:info@oiirooms.com"> <i class="fa fa-envelope-o text-primary"></i><span class="d-none d-md-inline">info@oiirooms.com</span></a></p>
+                <p> <i class="fa fa-phone text-primary"></i><span class="d-none d-md-inline">987 716 584</span></p>
+              </div>
+            </div>
+            <div class="CTAs"><a href="login.html" class="login"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline">Login</span></a><a href="registro.html" class="login"> <i class="fa fa-user"></i><span class="d-none d-md-inline">Registro</span></a></div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Navbar Brand --><a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="..."></a>
+          <!-- Toggle Button-->
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span>Menu</span><i class="fa fa-bars"></i></button>
+          <!-- Navbar Menu -->
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <!-- Search-->
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Hoteles</a>
+              </li>
+              <!--
+              <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Servicios</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu"><a href="detail.html" class="dropdown-item">Detalles de Hotel</a><a href="post.html" class="dropdown-item">Blog</a><a href="text.html" class="dropdown-item">Texto página</a><a href="404.html" class="dropdown-item">Página 404</a><a href="contact.html" class="dropdown-item">Contacto</a></div>
+              </li>
+              -->
+              <li class="nav-item"><a href="#" class="nav-link">Servicios</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Contacto</a>
+              </li>
+            </ul><a href="#" class="btn navbar-btn btn-outline-primary mt-3 mt-lg-0 ml-lg-3">Registrar mi Hotel</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section-->
+    <section class="hero listing-single-hero d-flex align-items-end">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" style="background: url('https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/listing-hero-bg.jpg') no-repeat;" >
+            <div class="content d-flex justify-content-between align-items-start flex-column flex-lg-row align-items-lg-end">
+              <div class="heading-info" style="margin-top: 59px; margin-left: 41px;">
+                <div class="badge-transparent">Habitación Estándar</div>
+                <h1 class="verified">Hotel Lunita</h1>
+                <p><i class="icon-localizer"></i> Av. Angamos # 2149, Surquillo</p>
+                <!--
+                <div class="listing-rate d-flex align-items-center">
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  </ul><span class="reviewers">8 Opiniones</span>
+                </div>
+                -->
+              </div>
+              <!--
+              <div class="calltoactions"><a href="https://demo.bootstrapious.com/places/1-1-2/.add-review" class="btn btn-primary has-wide-padding link-scroll">Escribir una Opinión</a></div>
+              -->
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="txt_naranja">¿Buscas Habitaciones?</h3>
+            <form id="contact-form" method="post" action="https://demo.bootstrapious.com/places/1-1-2/contact.php" class="custom-form form">
+              <div class="controls">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="name" class="form-label"><!-- Desde * --></label>
+                      <input type="date" name="rhi" id="rhi" required="required" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="surname" class="form-label"><!-- Hasta * --></label>
+                      <input type="date" name="rhf" id="rhf" required="required" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="name" class="form-label"><!-- Personas * --></label>
+                      <input type="number" name="rhi" id="rhi" required="required" placeholder="Personas" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="surname" class="form-label"> <!-- Habitaciones * --></label>
+                      <input type="number" name="rhf" id="rhf" required="required" placeholder="Habitaciones" class="form-control">
+                    </div>
+                  </div>
+                </div>
+
+                <p class="txt_black_fc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="txt_black">
+                      <strong>TARIFA</strong>
+                      <br>
+                      S/. 110.00
+                    </p>
+                  </div>
+                  <div class="col-sm-6">
+                    <p class="txt_black">
+                      <strong>TOTAL</strong>
+                      <br>
+                      S/. 540.00
+                    </p>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-outline-primary btn-block">Reservar</button>
+              </div>
+            </form>
+          </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+        <main class="col-lg-6">
+          <!-- About Listing-->
+          <div class="block about-listing">
+            <header>
+              <h3 class="has-lines">Descripción del Hotel</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+          </div>
+          <!-- Listing Location-->
+          <div class="block listing-location">
+            <header>
+              <!-- <h3 class="has-lines"><small>Location</small> Ubicación</h3> -->
+            </header>
+            <div class="map-holder has-shadow">
+              <div id="detail-map"></div>
+            </div>
+          </div>
+          <!-- Listing Gallery-->
+          <!-- 
+          <div class="block listing-gallery">
+            <header>
+              <h3 class="has-lines"><small>Gallery</small> Listing Gallery </h3>
+            </header>
+            <div class="gallery row">
+              <div class="mix col-lg-4 col-md-6">
+                <div class="item"><a href="img/gallery-1.jpg" data-fancybox="gallery" class="image"><img src="img/gallery-1-small.jpg" alt="..." class="img-fluid"></a></div>
+              </div>
+              <div class="mix col-lg-4 col-md-6">
+                <div class="item"><a href="img/gallery-2.jpg" data-fancybox="gallery" class="image"><img src="img/gallery-2-small.jpg" alt="..." class="img-fluid"></a></div>
+              </div>
+              <div class="mix col-lg-4 col-md-6">
+                <div class="item"><a href="img/gallery-3.jpg" data-fancybox="gallery" class="image"><img src="img/gallery-3-small.jpg" alt="..." class="img-fluid"></a></div>
+              </div>
+              <div class="mix col-lg-4 col-md-6">
+                <div class="item"><a href="img/gallery-4.jpg" data-fancybox="gallery" class="image"><img src="img/gallery-4-small.jpg" alt="..." class="img-fluid"></a></div>
+              </div>
+              <div class="mix col-lg-4 col-md-6">
+                <div class="item"><a href="img/gallery-5.jpg" data-fancybox="gallery" class="image"><img src="img/gallery-5-small.jpg" alt="..." class="img-fluid"></a></div>
+              </div>
+              <div class="mix col-lg-4 col-md-6">
+                <div class="item"><a href="img/gallery-6.jpg" data-fancybox="gallery" class="image"><img src="img/gallery-6-small.jpg" alt="..." class="img-fluid"></a></div>
+              </div>
+            </div>
+          </div>
+          -->
+          <!-- Amenities-->
+          <!--
+          <div class="block amenities">
+            <header>
+              <h3 class="has-lines"><small>Amenities</small> Amenities</h3>
+            </header>
+            <ul class="amenities-list list-inline">
+              <li class="list-inline-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon"><i class="fa fa-check"></i></div><span>Elevator</span>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon"><i class="fa fa-check"></i></div><span>Vegan friendly</span>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon"><i class="fa fa-check"></i></div><span>Alcohol served</span>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon"><i class="fa fa-check"></i></div><span>No smoking</span>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon"><i class="fa fa-check"></i></div><span>Parking spaces (paid)</span>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon"><i class="fa fa-check"></i></div><span>WiFi</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          -->
+          <!-- Listing Reviews -->
+          <!--
+          <div class="block listing-reviews">
+            <header>
+              <h3 class="has-lines"><small>Reviews</small> Listing Reviews <span>(3)</span></h3>
+            </header>
+            <div class="comments">
+              <div class="comment">
+                <div class="comment-header d-flex justify-content-between">
+                  <div class="user d-flex align-items-center">
+                    <div class="image"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/user.svg" alt="..." class="img-fluid rounded-circle"></div>
+                    <div class="title"><strong>Jabi Hernandez</strong><span class="date">May 2016</span></div>
+                  </div>
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="comment-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comment-header d-flex justify-content-between">
+                  <div class="user d-flex align-items-center">
+                    <div class="image"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/user.svg" alt="..." class="img-fluid rounded-circle"></div>
+                    <div class="title"><strong>Nikolas</strong><span class="date">May 2016</span></div>
+                  </div>
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star text-gray"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star text-gray"></i></li>
+                  </ul>
+                </div>
+                <div class="comment-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comment-header d-flex justify-content-between">
+                  <div class="user d-flex align-items-center">
+                    <div class="image"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/user.svg" alt="..." class="img-fluid rounded-circle"></div>
+                    <div class="title"><strong>John Doe</strong><span class="date">May 2016</span></div>
+                  </div>
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star text-gray"></i></li>
+                  </ul>
+                </div>
+                <div class="comment-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+          <!-- Adding Review                                                              
+          <div class="block add-review">
+            <header>
+              <h3 class="has-lines"><small>Comment</small> Leave a Review</h3>
+            </header>
+            <div class="add-rate">
+              <p>Your rating for this listing </p>
+              <ul class="rate list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              </ul>
+            </div>
+            <form action="detail.html#" class="commenting-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="username">Name</label>
+                  <input type="text" name="username" id="username" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="useremail">Email</label>
+                  <input type="email" name="username" id="useremail" class="form-control">
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="usercomment">Comment</label>
+                  <textarea name="usercomment" id="usercomment" class="form-control"></textarea>
+                </div>
+                <div class="form-group col-md-12">
+                  <button type="submit" class="btn btn-primary has-wide-padding has-shadow">Submit Your Review</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          -->
+        </main>
+        <!-- Opening Hours      -->
+        <aside class="col-lg-6">                   
+          <div class="widget opening-hours">
+            <header>
+              <h3 class="has-lines">Comodidades </h3>
+            </header>
+            <div class="days">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/iconos/restaurant.jpg"> Restaurantes
+                  <br>
+                  <img src="img/iconos/piscina_temperada.jpg"> Piscina Temperada
+                  <br>
+                  <img src="img/iconos/gimnasio.jpg"> Gimnasio
+                  <br>
+                  <img src="img/iconos/recepcion.jpg"> Recepción
+                  <br>
+                  <img src="img/iconos/desayuno_universal.jpg"> Desayuno Universal
+                  <br>
+                  <img src="img/iconos/tv.jpg"> Tv
+                  <br>
+                  <img src="img/iconos/mini_bar.jpg"> Mini Bar
+                  <br>
+                  <img src="img/iconos/aire_acondicionado.jpg"> Aire Acondicionado
+                </div>
+                <div class="col-md-6">
+                  <img src="img/iconos/wifi.jpg"> Wifi
+                  <br>
+                  <img src="img/iconos/caja_de_seguridad.jpg"> Caja de Seguridad
+                  <br>
+                  <img src="img/iconos/limpieza_domestica.jpg"> Limpieza doméstica
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Info-->
+          <div class="widget contact">
+            <header>
+              <h3 class="has-lines">Lugares Cercanos</h3>
+            </header>
+            <div class="info">
+              <div class="form-group has-search">
+    <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+            </div>
+          </div>
+          <!--
+          <div class="bookmark-listing text-center"><a href="detail.html#" class="bookmark"> <i class="fa fa-heart"></i> Bookmark This Lisiting</a><span>79 people bookmarked this place </span></div>
+          -->
+        </aside>
+      </div>
+    </div>
+    <!-- Related Listings-->
+    <!--
+    <div class="block related-listings no-padding-top">
+      <div class="container">
+        <header>
+          <h3 class="has-lines"><small>Related Places</small> You may also like</h3>
+        </header>
+        <div class="listings">
+          <div class="row">
+            <div class="col-lg-4">
+              
+              <div class="item listing-item">
+                <div class="item-inner">
+                  <div class="image"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/photo-latest-1.jpg" alt="..." class="img-fluid"></div>
+                  <div class="info d-flex align-items-end justify-content-between">
+                    <div><a href="detail.html#" class="badge-transparent">Eat &amp; Drink</a>
+                      <h3><a href="detail.html">  Junipoor</a></h3>
+                      <p class="address">23 July Street, Vinece</p>
+                    </div>
+                    <div class="favorite"><i class="icon-heart"> </i></div>
+                  </div>
+                </div>
+                <div class="rate-box d-flex align-items-center">
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star text-gray"></i></li>
+                  </ul><span>(20 Reviews)</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              
+              <div class="item listing-item">
+                <div class="item-inner">
+                  <div class="image"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/photo-latest-2.jpg" alt="..." class="img-fluid"></div>
+                  <div class="info d-flex align-items-end justify-content-between">
+                    <div><a href="detail.html#" class="badge-transparent">See and do</a>
+                      <h3><a href="detail.html">  Musix</a></h3>
+                      <p class="address">6th Ave, Greenwich village </p>
+                    </div>
+                    <div class="favorite"><i class="icon-heart"> </i></div>
+                  </div>
+                </div>
+                <div class="rate-box d-flex align-items-center">
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star">                                       </i></li>
+                  </ul><span>(40 Reviews)</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              
+              <div class="item listing-item">
+                <div class="item-inner">
+                  <div class="image"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/photo-latest-3.jpg" alt="..." class="img-fluid"></div>
+                  <div class="info d-flex align-items-end justify-content-between">
+                    <div><a href="detail.html#" class="badge-transparent">Sleep</a>
+                      <h3><a href="detail.html">  Prosure</a></h3>
+                      <p class="address">151 Karweg Place, East village</p>
+                    </div>
+                    <div class="favorite"><i class="icon-heart"> </i></div>
+                  </div>
+                </div>
+                <div class="rate-box d-flex align-items-center">
+                  <ul class="rate list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star text-gray"></i></li>
+                  </ul><span>(66 Reviews)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+    
+    <!-- Page Footer-->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="about col-md-4">
+            <div class="logo"><img src="https://d19m59y37dris4.cloudfront.net/places/1-1-2/img/logo-footer.png" alt="..."></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <div class="site-links col-md-4">
+            <h3>Useful links</h3>
+            <div class="menus d-flex">
+              <ul class="list-unstyled">
+                <li> <a href="index.html">Homepage</a></li>
+                <li> <a href="category.html">Listings detail</a></li>
+                <li> <a href="detail.html">Listing detail</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+                <li> <a href="post.html">Post</a></li>
+                <li> <a href="detail.html#">Privacy policy </a><span class="badge badge-secondary text-uppercase ml-1">Soon</span></li>
+              </ul>
+              <ul class="list-unstyled">
+                <li> <a href="text.html">Text page</a></li>
+                <li> <a href="404.html">404 - Not found</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="detail.html#">Pricing </a><span class="badge badge-secondary text-uppercase ml-1">Soon</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact col-md-4">
+            <h3>Contact  us</h3>
+            <div class="info">
+              <p>53 Broadway, Broklyn, NY 11249</p>
+              <p>Phone: (020) 123 456 789</p>
+              <p>Email: <a href="mailto:info@company.com">Info@Company.com</a></p>
+              <ul class="social-menu lisy-inline">
+                <li class="list-inline-item"><a href="detail.html#" target="_blank" title="Facebook"><i class="fa fa-facebook">                        </i></a></li>
+                <li class="list-inline-item"><a href="detail.html#" target="_blank" title="Twitter"><i class="fa fa-twitter">                        </i></a></li>
+                <li class="list-inline-item"><a href="detail.html#" target="_blank" title="Pinterest"><i class="fa fa-pinterest">                        </i></a></li>
+                <li class="list-inline-item"><a href="detail.html#" target="_blank" title="Instagram"><i class="fa fa-instagram">                        </i></a></li>
+                <li class="list-inline-item"><a href="detail.html#" target="_blank" title="Vimeo"><i class="fa fa-vimeo">                        </i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights text-center">
+        <p>&copy; 2019 <span class="text-primary">Oio rooms.</span> Todos los Derechos Reservados.</p>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"> </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- create your own Maps API Key for production use, this one is domain-restricted-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="js/map.js"></script>
+    <script>
+      $(function () {
+          // coordinates for the center of the map and the marker
+          var lat = -12.1123566;
+          var long = -77.0096632;
+          // if using with other than default style, change the path to the colour variant 
+          // of the marker. E.g. to img/map-marker-violet.png.
+          var markerImage = 'img/map-marker-default.png';
+      
+          map = createDetailMap(lat, long, markerImage);
+      });         
+      
+    </script>
+  </body>
+</html>
